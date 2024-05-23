@@ -4,11 +4,12 @@ import "fmt"
 
 func main() {
 	user := map[string]string{
-		"name":        "Sachin Tendulkar",
-		"phoneNumber": "7111111112",
-		"Address":     "At post yawatmal.",
+		"Name":      "Rob Pike",
+		"Address":   "Googleplex.",
+		"IsCreator": "Yes",
 	}
+	fmt.Println("User details are as follows")
 	for key, value := range user {
-		fmt.Println(key, value)
+		fmt.Println(key, ":", value)
 	}
 }

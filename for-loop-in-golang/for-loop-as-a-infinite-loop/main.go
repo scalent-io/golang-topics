@@ -2,16 +2,17 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 )
 
 func main() {
-	counter := 0
+	winningNumber := 7
 	for {
-		fmt.Println("Hello, World!")
-		counter++
-		if counter >= 5 {
-			break // Exit the loop after 5 iterations
+		number := rand.Intn(10)
+		if number == winningNumber {
+			fmt.Println("You won the lottery! Exiting the loop...")
+			break
 		}
 	}
-	fmt.Println("Loop exited.")
+	fmt.Println("Loop exited.  Enjoy your winnings!")
 }
