@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	intSlice := []int{1, 2, 3}
+	intSlice := []int{1000, 2000, 3000}
 	floatSlice := make([]float64, len(intSlice))
 
 	for i, v := range intSlice {

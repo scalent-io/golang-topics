@@ -19,11 +19,8 @@ func main() {
 
 	// Print the message
 	fmt.Printf("%v\nDatatype of message is %T\n", message, message)
-
 }
 
-/*
-output:
+/* output:
 My weight is 60 kg
-Datatype of message is string
-*/
+Datatype of message is string*/

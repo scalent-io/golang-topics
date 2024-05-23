@@ -5,10 +5,10 @@ import (
 )
 
 func main() {
-	var i interface{} = "hello"
+	var greetings interface{} = "Greetings of the day!"
 
 	// Type assertion to convert interface{} to string
-	s, ok := i.(string)
+	s, ok := greetings.(string)
 	if ok {
 		fmt.Println("The string is:", s)
 	} else {

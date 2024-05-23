@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	intMap := map[string]int{"a": 1, "b": 2, "c": 3}
+	intMap := map[string]int{"Number1": 1000, "Number2": 2000, "Number3": 3000}
 	floatMap := make(map[string]float64)
 
 	for k, v := range intMap {

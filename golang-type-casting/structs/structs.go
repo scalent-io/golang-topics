@@ -5,20 +5,20 @@ import (
 )
 
 type IntStruct struct {
-	Field1 int
-	Field2 int
+	Number1 int
+	Number2 int
 }
 
 type FloatStruct struct {
-	Field1 float64
-	Field2 float64
+	Number1 float64
+	Number2 float64
 }
 
 func main() {
-	intStruct := IntStruct{Field1: 1, Field2: 2}
+	intStruct := IntStruct{Number1: 121, Number2: 144}
 	floatStruct := FloatStruct{
-		Field1: float64(intStruct.Field1),
-		Field2: float64(intStruct.Field2),
+		Number1: float64(intStruct.Number1),
+		Number2: float64(intStruct.Number2),
 	}
 
 	fmt.Println("Converted float struct:", floatStruct)

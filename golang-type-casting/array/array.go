@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var intArray = [3]int{1, 2, 3}
+	var intArray = [3]int{1000, 2000, 3000}
 	var floatArray [3]float64
 
 	for i, v := range intArray {
