@@ -1,13 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	// Loop to print all numbers between 1 and 10 except 5
-	for num := 1; num <= 5; num++ {
-		if num == 3 {
-			continue // Skip 5th iteration
+	signals := []string{"green", "yellow", "red"} // Example signals
+
+	// Loop to check each signal
+	for i, signal := range signals {
+		if signal == "green" {
+			fmt.Printf("Continuing at signal: %s (index: %d)\n", signal, i)
+			continue // Skip the rest of the loop iteration if signal is green
 		}
-		fmt.Println(" Iteration number : ", num)
+		fmt.Printf("Stopping at signal: %s (index: %d)\n", signal, i)
+		break // Exit the loop if signal is not green
 	}
 }

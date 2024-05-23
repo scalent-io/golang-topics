@@ -3,11 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	// Loop to find the first number greater than 5
-	for num := 1; num <= 10; num++ {
-		if num > 5 {
-			fmt.Printf("Breaking the loop at number: %d\n", num)
-			break // Exit the loop
+	signals := []string{"green", "yellow", "red"} // Example signals
+
+	// Loop to check each signal
+	for i, signal := range signals {
+		if signal == "red" {
+			fmt.Printf("Breaking the loop at signal: %s (index: %d)\n", signal, i)
+			break // Exit the loop if signal is red
 		}
 	}
 }
