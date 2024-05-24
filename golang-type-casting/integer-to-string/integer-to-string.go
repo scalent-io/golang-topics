@@ -8,19 +8,8 @@ import (
 )
 
 func main() {
-	// Create the weight integer
-	var weight int = 60
-
-	//Create the weight string
-	var weightString string = strconv.Itoa(weight)
-
-	// Create the message
-	message := "My weight is " + weightString + " kg"
-
-	// Print the message
-	fmt.Printf("%v\nDatatype of message is %T\n", message, message)
-}
-
-/* output:
-My weight is 60 kg
-Datatype of message is string*/
+	var secondsInOneMinute int = 60
+	var secondsInOneMinuteString string = strconv.Itoa(secondsInOneMinute)
+	message := "One minute consists of " + secondsInOneMinuteString + " seconds"
+	fmt.Println(message)
+} // output : One minute consists of 60 seconds
