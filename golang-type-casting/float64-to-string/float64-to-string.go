@@ -8,21 +8,10 @@ import (
 )
 
 func main() {
-	// Create the weight float
-	var weight float64 = 52.50
-
-	// Create the weight string
-	var weightString string = strconv.FormatFloat(weight, 'f', 2, 64)
-
-	// Create the message
-	message := "My weight is " + weightString + " kg"
-
-	// Print the message
-	fmt.Printf("%v\nDatatype of message is %T\n", message, message)
+	var percentageValue float64 = 12.5
+	var percentageValueString string = strconv.FormatFloat(percentageValue, 'f', 2, 64)
+	message := percentageValueString + " percentage is equal to 1/8 fraction"
+	fmt.Println(message)
 }
 
-/*
-output:
-My weight is 50.5 kg
-Datatype of message is string
-*/
+//output : 12.50 percentage is equal to 1/8 fraction
