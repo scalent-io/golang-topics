@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	byteSlice := []byte{72, 101, 108, 108, 111} // Represents "Hello"
+	byteSlice := []byte{71, 111, 112, 104, 101, 114, 115, 33} // Represents "Gophers!"
 	str := string(byteSlice)
-	fmt.Println(str) // Output: Hello
+	fmt.Println(str) // Output: Gophers!
 }
