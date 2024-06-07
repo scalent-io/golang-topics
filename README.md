@@ -1,4 +1,4 @@
-# Go For Loop Examples
+# For loop in golang Examples
 
 This repository contains examples and explanations of the `for` loop in Go. You can use these examples to understand the different ways to use `for` loops in your Go programs.
 
