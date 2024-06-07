@@ -4,13 +4,13 @@ This repository contains examples and explanations of the `for` loop in Go. You 
 
 ## Table of Contents
 
--Basic For Loop
--For loop as a infinite loop
--For loop as while loop
--For loop with go channel
--For loop with nested loop
--loop control statements
--range loop
+- Basic For Loop
+- For loop as a infinite loop
+- For loop as while loop
+- For loop with go channel
+- For loop with nested loop
+- Loop control statements
+- Range loop
 
 For more details, visit the related blog post:[https://www.scalent.io/golang/for-loop-in-golang/]
 
