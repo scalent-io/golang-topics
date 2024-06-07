@@ -35,4 +35,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## Contact
 
-For any questions or feedback, please leave your comment at ([mailto:your-email@domain.com](https://www.scalent.io/golang/for-loop-in-golang/)).
+For any questions or feedback, please leave your comment at ([mailto:priyanka.c@scalent.io](https://www.scalent.io/golang/for-loop-in-golang/)).
