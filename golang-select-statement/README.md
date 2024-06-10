@@ -1,4 +1,4 @@
-# "select" statement in Go(Golang)
+# "select" statement in Go (Golang)
 This repository contains the examples of the "select" statement in the Golang. Following is the list of the example of the "select" statement in Golang:
 - **Non-Bloacking operation using "select" statement**: https://github.com/scalent-io/golang-topics/blob/go-select-statement/golang-select-statement/non-blocking-with-select/non-blocking-with-select.go
 - **"default" case in the "select" statement**: https://github.com/scalent-io/golang-topics/blob/go-select-statement/golang-select-statement/select-with-default.go/select-with-default.go
