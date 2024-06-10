@@ -1,6 +1,5 @@
 # Type Conversion in Go(Golang)
-
-## This repository contains the examples of the type conversion in the Golang. Following is the list of the example of the type conversion :
+This repository contains the examples of the type conversion in the Golang. Following is the list of the example of the type conversion :
 - **string to integer** : https://github.com/scalent-io/golang-topics/blob/golang-type-casting/golang-type-casting/string-to-integer/string-to-integer.go
 - **string to float64** : https://github.com/scalent-io/golang-topics/blob/golang-type-casting/golang-type-casting/string-to-float64/string-to-float64.go
 - **string to float32** : https://github.com/scalent-io/golang-topics/blob/golang-type-casting/golang-type-casting/string-to-float32/string-to-float32.go
