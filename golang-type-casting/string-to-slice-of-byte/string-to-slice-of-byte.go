@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	str := "Hello, world!"
+	str := "Gophers!"
 	byteSlice := []byte(str)
 	fmt.Println(byteSlice)
 }
