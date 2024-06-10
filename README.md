@@ -16,7 +16,7 @@ For more details, visit the related blog post:[https://www.scalent.io/golang/for
 
 ## Code Examples
 
-- **Basic For Loop**: [https://github.com/scalent-io/golang-topics/tree/for-loop-in-golang/for-loop-in-golang/basic-for-loop]
+- **Basic For Loop**: [[https://github.com/scalent-io/golang-topics/tree/for-loop-in-golang/for-loop-in-golang/basic-for-loop](https://github.com/scalent-io/golang-topics/tree/for-loop-in-go-lang/for-loop-in-golang/basic-for-loop)]
 - **For loop as a infinite loop**:[https://github.com/scalent-io/golang-topics/tree/for-loop-in-golang/for-loop-in-golang/for-loop-as-a-infinite-loop]
 - **For loop as while loop**: [https://github.com/scalent-io/golang-topics/tree/for-loop-in-golang/for-loop-in-golang/for-loop-as-a-while-loop]
 - **For loop with go channel**: [https://github.com/scalent-io/golang-topics/tree/for-loop-in-golang/for-loop-in-golang/for-loop-with-go-channel]
