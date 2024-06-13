@@ -7,7 +7,7 @@ import (
 
 func main() {
 	fmt.Println("Goroutines started")
-	// a function call with go keyword is function is called in newly invoked goroutine
+	// a function call with go keyword is function called in newly invoked goroutine
 	go Greeting("John")
 	go Greeting("James")
 	go Greeting("Michael")
