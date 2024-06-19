@@ -8,7 +8,7 @@ This repository contains the examples of the waitgroups in the Golang. Following
 
 ## Further Reading
 
-For more details, visit the related blog post:
+For more details, visit the related blog post: https://www.scalent.io/golang/waitgroups-in-golang-in-detail/
 
 
 ## Contributing
