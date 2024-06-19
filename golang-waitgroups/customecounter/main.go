@@ -5,29 +5,29 @@ import (
 	"sync/atomic"
 )
 
-type myWaitGroup struct {
+type custWaitGroup struct {
 	count int64
 }
 
-func (wg *myWaitGroup) Add(n int64) {
+func (wg *custWaitGroup) Add(n int64) {
 	atomic.AddInt64(&wg.count, n)
 }
 
-func (wg *myWaitGroup) Done() {
+func (wg *custWaitGroup) Done() {
 	wg.Add(-1)
 	if atomic.LoadInt64(&wg.count) < 0 {
 		panic("negative wait group counter")
 	}
 }
 
-func (wg *myWaitGroup) Wait() {
+func (wg *custWaitGroup) Wait() {
 	for atomic.LoadInt64(&wg.count) != 0 {
 		continue
 	}
 }
 
 func main() {
-	var wg myWaitGroup
+	var wg custWaitGroup
 	wg.Add(2)
 	go func() {
 		defer wg.Done()
