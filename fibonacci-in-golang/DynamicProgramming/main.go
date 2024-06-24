@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func fibonacciDynamicProgramming(n int) int {
+func fibonacciDynamic(n int) int {
 	if n <= 1 {
 		return n
 	}
@@ -17,6 +17,6 @@ func fibonacciDynamicProgramming(n int) int {
 
 func main() {
 	for i := 0; i < 10; i++ {
-		fmt.Println(fibonacciDynamicProgramming(i))
+		fmt.Println(fibonacciDynamic(i))
 	}
 }

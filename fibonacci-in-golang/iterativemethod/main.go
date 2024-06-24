@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func fibonacciIterative(n int) int {
+func fibonacciCalculator(n int) int {
 	if n <= 1 {
 		return n
 	}
@@ -14,7 +14,7 @@ func fibonacciIterative(n int) int {
 }
 
 func main() {
-	for i := 0; i < 10; i++ {
-		fmt.Println(fibonacciIterative(i))
+	for i := 0; i < 5; i++ {
+		fmt.Println(fibonacciCalculator(i))
 	}
 }
