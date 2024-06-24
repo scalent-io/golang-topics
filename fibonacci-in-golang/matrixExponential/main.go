@@ -36,7 +36,7 @@ func fibonacciMatrixExponentiation(n int) int {
 }
 
 func main() {
-	for i := 0; i < 111; i++ {
+	for i := 0; i < 10; i++ {
 		fmt.Println(fibonacciMatrixExponentiation(i))
 	}
 }

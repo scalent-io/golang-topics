@@ -16,7 +16,7 @@ func fibonacciDynamicProgramming(n int) int {
 }
 
 func main() {
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 10; i++ {
 		fmt.Println(fibonacciDynamicProgramming(i))
 	}
 }

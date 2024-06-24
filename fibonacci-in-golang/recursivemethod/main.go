@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-// Recursive function to calculate Fibonacci number
 func fibonacci(n int) int {
 	if n <= 1 {
 		return n

@@ -17,7 +17,7 @@ func fibonacciMemoized(n int) int {
 }
 
 func main() {
-	for i := 0; i < 20; i++ {
+	for i := 0; i < 10; i++ {
 		fmt.Println(fibonacciMemoized(i))
 	}
 }
