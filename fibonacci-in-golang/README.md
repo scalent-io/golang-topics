@@ -1,4 +1,4 @@
-# fibonacci in Go (Golang)
+# Fibonacci in Go (Golang)
 
 This repository contains the examples of the fibonacci in the Golang. Following is the list of the example in orderly manner to understand:
 
