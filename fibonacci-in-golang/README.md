@@ -11,7 +11,7 @@ This repository contains the examples of the fibonacci in the Golang. Following 
 
 ## Further Reading
 
-For more details, visit the related blog post: 
+For more details, visit the related blog post: https://www.scalent.io/golang/fibonacci-golang/
 
 
 ## Contributing
