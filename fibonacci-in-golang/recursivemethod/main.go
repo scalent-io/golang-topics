@@ -10,9 +10,9 @@ func fibonacci(n int) int {
 }
 
 func main() {
-	n := 10
-	fmt.Println("Fibonacci sequence:")
+	n := 5
+	fmt.Println("Fibonacci Numbers:")
 	for i := 0; i < n; i++ {
-		fmt.Printf("F(%d) = %d\n", i, fibonacci(i))
+		fmt.Println(fibonacci(i))
 	}
 }
