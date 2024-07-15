@@ -2,15 +2,15 @@
 
 This repository consists of examples of the golang var keyword. Following is the list of the example to understand:
 
-- **fundamental datatypes declaration using the "var" keyword** : 
+- **Fundamental datatypes declaration using the "var" keyword** : 
 
   https://github.com/scalent-io/golang-topics/blob/main/golang-var-keyword/var-keyword-declaration/main.go
 
-- **struct declaration using "var" keyword** : 
+- **Struct declaration using "var" keyword** : 
 
   https://github.com/scalent-io/golang-topics/blob/main/golang-var-keyword/struct-declaration/main.go
 
-- **interface with method signatures declaration using "var" keyword** : 
+- **Interface with method signatures declaration using "var" keyword** : 
 
   https://github.com/scalent-io/golang-topics/blob/main/golang-var-keyword/interfaces-with-method-signatures/main.go
 
