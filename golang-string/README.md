@@ -84,7 +84,7 @@ https://github.com/scalent-io/golang-topics/blob/main/golang-string/strings-trim
 
 ## Further Reading
 
-For more details, visit the related blog post: 
+For more details, visit the related blog post: https://www.scalent.io/golang/go-string/
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
