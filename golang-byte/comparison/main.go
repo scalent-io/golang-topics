@@ -18,12 +18,12 @@ func main() {
 
 	// Measure time to read from bytes.NewReader
 	startTimeBytes := time.Now()
-	readerBytes := bytes.NewReader(data)
-	bufferBytes := make([]byte, 1024)
-	totalBytesBytes := 0
+	byteReader := bytes.NewReader(data)
+	byteBuffer := make([]byte, 1024)
+	totalBytes := 0
 	for {
-		n, err := readerBytes.Read(bufferBytes)
-		totalBytesBytes += n
+		n, err := byteReader.Read(byteBuffer)
+		totalBytes += n
 		if err == io.EOF {
 			break
 		} else if err != nil {
@@ -33,16 +33,16 @@ func main() {
 	}
 	elapsedBytes := time.Since(startTimeBytes)
 
-	fmt.Printf("Read %d bytes with bytes.NewReader in %v\n", totalBytesBytes, elapsedBytes)
+	fmt.Printf("Read %d bytes with bytes.NewReader in %v\n", totalBytes, elapsedBytes)
 
 	// Measure time to read from strings.NewReader
 	startTimeString := time.Now()
-	readerString := strings.NewReader(string(data))
-	bufferString := make([]byte, 1024)
-	totalBytesString := 0
+	stringReader := strings.NewReader(string(data))
+	stringBuffer := make([]byte, 1024)
+	totalBytes = 0
 	for {
-		n, err := readerString.Read(bufferString)
-		totalBytesString += n
+		n, err := stringReader.Read(stringBuffer)
+		totalBytes += n
 		if err == io.EOF {
 			break
 		} else if err != nil {
@@ -52,5 +52,5 @@ func main() {
 	}
 	elapsedString := time.Since(startTimeString)
 
-	fmt.Printf("Read %d bytes with strings.NewReader in %v\n", totalBytesString, elapsedString)
+	fmt.Printf("Read %d bytes with strings.NewReader in %v\n", totalBytes, elapsedString)
 }
