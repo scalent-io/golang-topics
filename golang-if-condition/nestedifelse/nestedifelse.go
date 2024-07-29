@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	//find employee
+	//find largest number
 
 	a := 19 //number1
 	b := 21 // number2
